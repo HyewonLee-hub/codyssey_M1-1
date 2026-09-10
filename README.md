@@ -144,6 +144,14 @@ seoul-bike-analysis/
 
 ---
 
+## 🛠 개발 환경
+
+- Python 3.10 이상
+- Google Colab
+- pandas
+- matplotlib
+---
+
 ## ▶️ 실행 방법
 
 1. `seoul_bike_analysis.ipynb` 파일을 Google Colab에서 엽니다.
