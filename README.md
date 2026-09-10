@@ -141,3 +141,29 @@ seoul-bike-analysis/
 ├── README.md
 └── requirements.txt
 ```
+
+---
+
+## ▶️ 실행 방법
+
+1. `seoul_bike_analysis.ipynb` 파일을 Google Colab에서 엽니다.
+
+2. `data/` 폴더에 포함된 다음 CSV 파일 2개를 Colab의 `/content` 경로에 업로드합니다.
+
+   - `서울특별시 공공자전거 일별 대여건수_25.1-6.csv`
+   - `서울특별시 공공자전거 일별 대여건수_25.7-12.csv`
+
+3. 노트북의 셀을 위에서부터 순서대로 실행합니다.
+
+4. 실행이 완료되면 분석 결과와 시각화가 출력되며, 생성된 그래프는 `images/` 폴더에 저장됩니다.
+
+### 사용 라이브러리
+
+- pandas
+- matplotlib
+
+필요한 라이브러리는 다음 명령어로 설치할 수 있습니다.
+
+```bash
+pip install -r requirements.txt
+```
